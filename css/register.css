@@ -1,0 +1,158 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.red {
+    color: #c81523;
+}
+
+.header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.register_area {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.register_hd {
+    height: 42px;
+    line-height: 42px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+}
+
+.register_hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.register_hd span {
+    float: right;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    text-align: right;
+    width: 88px;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+}
+
+.error {
+    color: #c81523;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.error_icon { 
+    background: url(../images/error_03.png) no-repeat ;
+}
+
+.success {
+    color: green;
+}
+
+.success_icon {
+    background: url(../images/checked.png) no-repeat ;
+}
+
+.safe {
+    margin-top: -10px;
+    padding-left: 170px;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+    margin-right: 1px;
+}
+
+.safe em:nth-child(1) {
+    margin-left: 10px;
+    background-color: red;
+}
+
+.safe em:nth-child(2) {
+    background-color: green;
+}
+
+.safe em:nth-child(3) {
+    background-color: orange;
+}
+
+.agree {
+    padding-left: 95px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree a {
+    color: skyblue;
+}
+
+.reg_form ul li:last-child input{
+    width: 200px;
+    height: 34px;
+    margin: 30px 0 0 110px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #c81523;
+}
+
+.mod_copyright {
+    text-align: center;
+    margin-top: 22px;
+    height: 121px;
+}
+
+.mod_copyright .links ul li {
+    float: left;
+}
+
+.mod_copyright .links ul li:first-child {
+    margin-left: 104px;
+}
+
+.mod_copyright .links ul li i {
+    padding: 0 13px;
+}
+
+.mod_copyright .copyright {
+    margin-top: 15px;
+    line-height: 20px;
+}
